@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file:$PROJECT_DIR$/../../../../../../..//$PROJECT_DIR$/.idea/wasm-js-control.iml" filepath="$PROJECT_DIR$/.idea/wasm-js-control.iml" />
+      <module fileurl="file:$PROJECT_DIR$/../../../../../../..//$PROJECT_DIR$/.idea/wasm-calc-handson.iml" filepath="$PROJECT_DIR$/.idea/wasm-calc-handson.iml" />
     </modules>
   </component>
 </project>

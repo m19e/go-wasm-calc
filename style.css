@@ -1,0 +1,93 @@
+/* caluculator's container */
+#calculator {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 20px;
+    margin: auto;
+}
+
+.calc-result {
+    font-size: 50px;
+}
+
+/* reset default button effect. */
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+}
+
+/* color-button */
+.color-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    color: white;
+    background: #0579e6;
+}
+
+.color-button:active {
+    padding-top: 6px;
+    padding-bottom: 4px;
+    border: 1px solid #334c66;
+    background-color: #69c;
+    color: #e0ebf5;
+    -webkit-box-shadow: inset 0px 0px 8px #334c66;
+    -moz-box-shadow: inset 0px 0px 2px #3a6da0;
+    box-shadow: inset 0px 0px 2px #3a6da0;
+}
+
+/* normal-button */
+.normal-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    color: white;
+    background: gray;
+}
+
+.normal-button:active {
+    padding-top: 6px;
+    padding-bottom: 4px;
+    border: 1px solid #626163;
+    background-color: rgb(143, 147, 151);
+    color: #e0ebf5;
+    -webkit-box-shadow: inset 0px 0px 8px #334c66;
+    -moz-box-shadow: inset 0px 0px 2px #3a6da0;
+    box-shadow: inset 0px 0px 2px #3a6da0;
+}
+
+/* reset-button */
+
+.reset-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    color: white;
+    background: #d70c18;
+}
+
+.reset-button:active {
+    padding-top: 6px;
+    padding-bottom: 4px;
+    border: 1px solid red;
+    background-color: rgb(243, 139, 139);
+    color: #e0ebf5;
+    -webkit-box-shadow: inset 0px 0px 8px #334c66;
+    -moz-box-shadow: inset 0px 0px 2px #3a6da0;
+    box-shadow: inset 0px 0px 2px #3a6da0;
+}
